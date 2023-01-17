@@ -1,0 +1,33 @@
+1st two data members....
+code:
+
+#include <iostream>
+using namespace std;
+ 
+class name
+{
+public:
+    float ar;
+    name()
+    {   
+        int a=0;
+        int b=0;
+        ar = 0;
+    }
+    name(int a,   int b)
+    {
+        ar= a * b;
+    }
+    void display()
+    {
+        cout<< ar<< endl;
+    }
+};
+int main()
+{
+    name o;
+    name o2( 10, 20);
+    o.display();
+    o2.display();
+    return 1;
+}
